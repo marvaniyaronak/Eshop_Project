@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+
+{% block content%}
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title><center>About Us</center></title>
+    <style>
+        /* Add styles for the page layout */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        header {
+            background-color: rgb(255, 254, 254);
+            color: rgb(2, 2, 2);
+            padding: 5px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Add media queries for responsive design */
+        @media (max-width: 600px) {
+            .container {
+                width: 100%;
+                padding: 0 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <center><h1>About Us</h1></center>
+        </div>
+    </header>
+    <div class="container">
+        <section>
+            <h2>Our Story</h2>
+            <p>Welcome to our e-shop! We're thrilled to have you here and we would like to take a moment to tell you a little bit about us.
+
+                We are a team of passionate technology enthusiasts who have come together to create an online destination where you can find all the latest and greatest gadgets, electronics, and accessories. We strive to offer our customers a wide range of products at competitive prices, with a focus on providing an exceptional shopping experience.
+                
+                Our goal is to make shopping for electronics easy and enjoyable. Whether you're looking to upgrade your phone, buy a new laptop, or simply browse for the latest tech trends, we've got you covered. We offer a vast selection of products from top brands and manufacturers, along with detailed product descriptions and customer reviews to help you make informed purchasing decisions.
+                
+                We understand that buying electronics can be a big investment, which is why we offer a variety of payment options and free shipping on orders over $50. We also have a dedicated customer service team on hand to answer any questions you may have and assist you with any issues that may arise.
+                
+                We're committed to providing our customers with the best possible service and we would love to hear from you. If you have any feedback, suggestions or questions, please don't hesitate to contact us.
+                
+                Thank you for choosing our e-shop and we hope you have a great shopping experience.
+                
+                Sincerely,
+                [Ronak Marvaniya]
+                [E-Shop]</p>
+        </section>
+        <section>
+            <h2>Our Team</h2>
+            <ul>
+                <li>Ronak Marvaniya - CEO</li>
+            
+            </ul>
+        </section>
+    </div>
+
+</body>
+
+</html>
+{% endblock %}
